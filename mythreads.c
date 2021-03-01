@@ -11,7 +11,7 @@ void *worker( void *arg )//menjano
   return( NULL );
 }
 
-int main( int argc, char **argv )
+int main( int argc, char **argv )//aaa
 {
   if( argc != 2 )
   {
