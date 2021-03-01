@@ -5,7 +5,7 @@
 int counter = 0;
 int loops;
 
-void *worker( void *arg )
+void *worker( void *arg )//menjano
 {
   for( int i = 0 ; i < loops; i++ ) counter++;
   return( NULL );
